@@ -7,24 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9635A0BC2168F204009C21E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635A0BB2168F204009C21E9 /* AppDelegate.swift */; };
-		9635A0BE2168F204009C21E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635A0BD2168F204009C21E9 /* ViewController.swift */; };
-		9635A0C02168F207009C21E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9635A0BF2168F207009C21E9 /* Assets.xcassets */; };
-		9635A0C32168F207009C21E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9635A0C12168F207009C21E9 /* Main.storyboard */; };
+		9635A0F621698E8C009C21E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635A0F521698E8C009C21E9 /* AppDelegate.swift */; };
+		9635A0F821698E8C009C21E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635A0F721698E8C009C21E9 /* ViewController.swift */; };
+		9635A0FA21698E8D009C21E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9635A0F921698E8D009C21E9 /* Assets.xcassets */; };
+		9635A0FD21698E8D009C21E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9635A0FB21698E8D009C21E9 /* Main.storyboard */; };
+		9635A10721698EEE009C21E9 /* CipherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635A10521698EEE009C21E9 /* CipherViewController.swift */; };
+		9635A10B21698F46009C21E9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635A10921698F46009C21E9 /* SettingsViewController.swift */; };
+		9635A1132169E46D009C21E9 /* InfoVewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9635A1112169E46D009C21E9 /* InfoVewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9635A0B82168F204009C21E9 /* LFSR_stream_cipher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFSR_stream_cipher.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9635A0BB2168F204009C21E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9635A0BD2168F204009C21E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9635A0BF2168F207009C21E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9635A0C22168F207009C21E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9635A0C42168F207009C21E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9635A0C52168F207009C21E9 /* LFSR_stream_cipher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LFSR_stream_cipher.entitlements; sourceTree = "<group>"; };
+		9635A0F221698E8C009C21E9 /* LFSR_stream_cipher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFSR_stream_cipher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9635A0F521698E8C009C21E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9635A0F721698E8C009C21E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9635A0F921698E8D009C21E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9635A0FC21698E8D009C21E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9635A0FE21698E8D009C21E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9635A0FF21698E8D009C21E9 /* LFSR_stream_cipher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LFSR_stream_cipher.entitlements; sourceTree = "<group>"; };
+		9635A10521698EEE009C21E9 /* CipherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CipherViewController.swift; sourceTree = "<group>"; };
+		9635A10921698F46009C21E9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9635A1112169E46D009C21E9 /* InfoVewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoVewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9635A0B52168F204009C21E9 /* Frameworks */ = {
+		9635A0EF21698E8C009C21E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,45 +40,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9635A0AF2168F204009C21E9 = {
+		9635A0E921698E8C009C21E9 = {
 			isa = PBXGroup;
 			children = (
-				9635A0BA2168F204009C21E9 /* LFSR_stream_cipher */,
-				9635A0B92168F204009C21E9 /* Products */,
+				9635A0F421698E8C009C21E9 /* LFSR_stream_cipher */,
+				9635A0F321698E8C009C21E9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9635A0B92168F204009C21E9 /* Products */ = {
+		9635A0F321698E8C009C21E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9635A0B82168F204009C21E9 /* LFSR_stream_cipher.app */,
+				9635A0F221698E8C009C21E9 /* LFSR_stream_cipher.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9635A0BA2168F204009C21E9 /* LFSR_stream_cipher */ = {
+		9635A0F421698E8C009C21E9 /* LFSR_stream_cipher */ = {
 			isa = PBXGroup;
 			children = (
-				9635A0BB2168F204009C21E9 /* AppDelegate.swift */,
-				9635A0BD2168F204009C21E9 /* ViewController.swift */,
-				9635A0BF2168F207009C21E9 /* Assets.xcassets */,
-				9635A0C12168F207009C21E9 /* Main.storyboard */,
-				9635A0C42168F207009C21E9 /* Info.plist */,
-				9635A0C52168F207009C21E9 /* LFSR_stream_cipher.entitlements */,
+				9635A0F521698E8C009C21E9 /* AppDelegate.swift */,
+				9635A0F721698E8C009C21E9 /* ViewController.swift */,
+				9635A0F921698E8D009C21E9 /* Assets.xcassets */,
+				9635A0FB21698E8D009C21E9 /* Main.storyboard */,
+				9635A1152169E4CE009C21E9 /* ViewCintrollers */,
+				9635A0FE21698E8D009C21E9 /* Info.plist */,
+				9635A0FF21698E8D009C21E9 /* LFSR_stream_cipher.entitlements */,
 			);
 			path = LFSR_stream_cipher;
+			sourceTree = "<group>";
+		};
+		9635A1152169E4CE009C21E9 /* ViewCintrollers */ = {
+			isa = PBXGroup;
+			children = (
+				9635A10921698F46009C21E9 /* SettingsViewController.swift */,
+				9635A1112169E46D009C21E9 /* InfoVewController.swift */,
+				9635A10521698EEE009C21E9 /* CipherViewController.swift */,
+			);
+			path = ViewCintrollers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9635A0B72168F204009C21E9 /* LFSR_stream_cipher */ = {
+		9635A0F121698E8C009C21E9 /* LFSR_stream_cipher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9635A0C82168F207009C21E9 /* Build configuration list for PBXNativeTarget "LFSR_stream_cipher" */;
+			buildConfigurationList = 9635A10221698E8D009C21E9 /* Build configuration list for PBXNativeTarget "LFSR_stream_cipher" */;
 			buildPhases = (
-				9635A0B42168F204009C21E9 /* Sources */,
-				9635A0B52168F204009C21E9 /* Frameworks */,
-				9635A0B62168F204009C21E9 /* Resources */,
+				9635A0EE21698E8C009C21E9 /* Sources */,
+				9635A0EF21698E8C009C21E9 /* Frameworks */,
+				9635A0F021698E8C009C21E9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -80,25 +97,30 @@
 			);
 			name = LFSR_stream_cipher;
 			productName = LFSR_stream_cipher;
-			productReference = 9635A0B82168F204009C21E9 /* LFSR_stream_cipher.app */;
+			productReference = 9635A0F221698E8C009C21E9 /* LFSR_stream_cipher.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9635A0B02168F204009C21E9 /* Project object */ = {
+		9635A0EA21698E8C009C21E9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = yenz0redd;
 				TargetAttributes = {
-					9635A0B72168F204009C21E9 = {
+					9635A0F121698E8C009C21E9 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
-			buildConfigurationList = 9635A0B32168F204009C21E9 /* Build configuration list for PBXProject "LFSR_stream_cipher" */;
+			buildConfigurationList = 9635A0ED21698E8C009C21E9 /* Build configuration list for PBXProject "LFSR_stream_cipher" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -106,45 +128,48 @@
 				en,
 				Base,
 			);
-			mainGroup = 9635A0AF2168F204009C21E9;
-			productRefGroup = 9635A0B92168F204009C21E9 /* Products */;
+			mainGroup = 9635A0E921698E8C009C21E9;
+			productRefGroup = 9635A0F321698E8C009C21E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9635A0B72168F204009C21E9 /* LFSR_stream_cipher */,
+				9635A0F121698E8C009C21E9 /* LFSR_stream_cipher */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9635A0B62168F204009C21E9 /* Resources */ = {
+		9635A0F021698E8C009C21E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9635A0C02168F207009C21E9 /* Assets.xcassets in Resources */,
-				9635A0C32168F207009C21E9 /* Main.storyboard in Resources */,
+				9635A0FA21698E8D009C21E9 /* Assets.xcassets in Resources */,
+				9635A0FD21698E8D009C21E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9635A0B42168F204009C21E9 /* Sources */ = {
+		9635A0EE21698E8C009C21E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9635A0BE2168F204009C21E9 /* ViewController.swift in Sources */,
-				9635A0BC2168F204009C21E9 /* AppDelegate.swift in Sources */,
+				9635A1132169E46D009C21E9 /* InfoVewController.swift in Sources */,
+				9635A0F821698E8C009C21E9 /* ViewController.swift in Sources */,
+				9635A0F621698E8C009C21E9 /* AppDelegate.swift in Sources */,
+				9635A10721698EEE009C21E9 /* CipherViewController.swift in Sources */,
+				9635A10B21698F46009C21E9 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9635A0C12168F207009C21E9 /* Main.storyboard */ = {
+		9635A0FB21698E8D009C21E9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9635A0C22168F207009C21E9 /* Base */,
+				9635A0FC21698E8D009C21E9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -152,7 +177,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9635A0C62168F207009C21E9 /* Debug */ = {
+		9635A10021698E8D009C21E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		9635A0C72168F207009C21E9 /* Release */ = {
+		9635A10121698E8D009C21E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -267,11 +292,10 @@
 			};
 			name = Release;
 		};
-		9635A0C92168F207009C21E9 /* Debug */ = {
+		9635A10321698E8D009C21E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = LFSR_stream_cipher/LFSR_stream_cipher.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = F69M5SBR3W;
@@ -286,11 +310,10 @@
 			};
 			name = Debug;
 		};
-		9635A0CA2168F207009C21E9 /* Release */ = {
+		9635A10421698E8D009C21E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = LFSR_stream_cipher/LFSR_stream_cipher.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = F69M5SBR3W;
@@ -308,25 +331,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9635A0B32168F204009C21E9 /* Build configuration list for PBXProject "LFSR_stream_cipher" */ = {
+		9635A0ED21698E8C009C21E9 /* Build configuration list for PBXProject "LFSR_stream_cipher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9635A0C62168F207009C21E9 /* Debug */,
-				9635A0C72168F207009C21E9 /* Release */,
+				9635A10021698E8D009C21E9 /* Debug */,
+				9635A10121698E8D009C21E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9635A0C82168F207009C21E9 /* Build configuration list for PBXNativeTarget "LFSR_stream_cipher" */ = {
+		9635A10221698E8D009C21E9 /* Build configuration list for PBXNativeTarget "LFSR_stream_cipher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9635A0C92168F207009C21E9 /* Debug */,
-				9635A0CA2168F207009C21E9 /* Release */,
+				9635A10321698E8D009C21E9 /* Debug */,
+				9635A10421698E8D009C21E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9635A0B02168F204009C21E9 /* Project object */;
+	rootObject = 9635A0EA21698E8C009C21E9 /* Project object */;
 }

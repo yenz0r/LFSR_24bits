@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  LFSR_stream_cipher
 //
-//  Created by Egor Pii on 10/6/18.
+//  Created by Egor Pii on 10/7/18.
 //  Copyright © 2018 yenz0redd. All rights reserved.
 //
 
